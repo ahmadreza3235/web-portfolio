@@ -1,0 +1,28 @@
+body{
+    font-family: 'Playfair Display', serif;
+}
+
+
+h1{
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.name-hightlight{
+    color: rgb(175, 133, 53);
+}
+
+h3{
+    text-transform: capitalize;
+}
+
+.half-width{
+    width: 40%;
+    float:left ;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+
+.half-width img{
+    width: 120%;
+}
