@@ -9,6 +9,11 @@ h1{
     
 }
 
+p{
+    font-size: 16px;
+    color: gray;
+    
+}
 .name-hightlight{
     color: rgb(175, 133, 53);
 }
@@ -25,7 +30,7 @@ h3{
 }
 
 .half-width img{
-    width: 100%;
+    width: 110%;
 }
 
 section{
@@ -49,3 +54,42 @@ section{
     
 }
 /* ............top-part end.......... */
+h2{
+    font-size: 40px;
+}
+
+.dream-area{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.single-experience{
+    box-shadow: 10px 10px 40px gray ;
+    border-radius: 7px;
+    height: 80%;
+    background-color: white;
+}
+
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(150deg, lightsalmon,tomato);
+    border-image-slice: 1;
+}
+
+#baby-web{
+    border-left: 7px solid;
+    border-image: linear-gradient(150deg, rgb(112, 244, 253),rgb(10, 107, 252));
+    border-image-slice: 1;
+}
+footer{
+    text-align: center;
+    font-weight: 400;
+    text-transform: capitalize;
+}
